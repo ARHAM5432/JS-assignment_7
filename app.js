@@ -8,7 +8,7 @@ if (charRev === word) {
     alert("Palindrome nahi hai bhai! ❌");
 }
 
-// Palindrome check without using methods (manual reverse)
+// Palindrome check without methods
 var inputWord = prompt("Enter a word:");
 var manuallyRev = ""; 
 
