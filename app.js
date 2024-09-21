@@ -1,7 +1,6 @@
 // Palindrome check with method (split, reverse, join)
 var word = prompt("Enter a word:");
-var charRev = word.split("").reverse().join(""); // Reverse the word
-// alert("Rev word: " + charRev);
+var charRev = word.split("").reverse().join("");
 
 if (charRev === word) { 
     alert("Palindrome hai bhai! ✅");
